@@ -1,4 +1,4 @@
-require(['libs/text!header.html', 'libs/text!home.html'], function (headerTpl, homeTpl) {
+require(['libs/text!header.html', 'libs/text!home.html', 'libs/text!footer.html'], function (headerTpl, homeTpl, footerTpl) {
 	
 	var ApplicationRouter = Backbone.Router.extend({
 		routes: {
@@ -8,6 +8,8 @@ require(['libs/text!header.html', 'libs/text!home.html'], function (headerTpl, h
 		initialize: function() {
 			this.headerView = new HeaderView();
 			this.headerView.render();
+			this.footerView = new FooterView();
+			this.footerView.render();
 		},
 		home: function() {
 			this.homeView = new HomeView();
@@ -29,6 +31,13 @@ require(['libs/text!header.html', 'libs/text!home.html'], function (headerTpl, h
 		}
 	});
 
+	FooterView = Backbone.View.extend({
+		el: "#footer",
+		template: footerTpl,
+		render: function() {
+			this.$el.html(_.template(this.template));
+		}
+	})
 	HomeView = Backbone.View.extend({
 		el: "#content",
 		// template: "home.html",

@@ -1,4 +1,4 @@
-# Super Simple Backbone Starter Kit and Boilerplate
+# Super Simple Backbone Starter Kit
 
 ## Dependancies (already included)
 
@@ -7,17 +7,19 @@
 * jQuery 1.7.2 hot-linked from [Google APIs](https://developers.google.com/speed/libraries/devguide)
 * Backbone 0.9.2 hot-linked from [CDNJS](http://cdnjs.com)
 * Underscore 1.3.3 hot-linked from [CDNJS](http://cdnjs.com)
+* Twitter Bootstrap 2.0.4 included in /css, /img, /js
 
 ## Installation
 
-Just download/fork/clone and launch index.html in a browser with or without HTTP server.
+Just download/fork/clone and launch index.html in a browser with HTTP server.
 
 ## Why?
 
-I found [Backbone Boilerplate](http://backboneboilerplate.com/) too complicated and too big for the boilerplate. 
+I found [Backbone Boilerplate](http://backboneboilerplate.com/) too complicated and too big for the boilerplate.
+Another good sample app [Sample App with Backbone.js and Twitter Bootstrap](http://coenraets.org/blog/2012/02/sample-app-with-backbone-js-and-twitter-bootstrap/)
+More tutorials <https://github.com/documentcloud/backbone/wiki/Tutorials%2C-blog-posts-and-example-sites>
 
 ## To do
 
-* Add Twitter Bootstrap
 * Add models and collections 
 * Add extra page with examples
