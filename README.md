@@ -1,4 +1,4 @@
-# Super Simple Backbone Boilerplate
+# Super Simple Backbone Starter Kit and Boilerplate
 
 ## Dependancies (already included)
 
