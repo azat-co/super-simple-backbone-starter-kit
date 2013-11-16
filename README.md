@@ -1,17 +1,17 @@
 # Super Simple Backbone Starter Kit
 
-## Dependancies (already included)
+## Dependencies (already included)
 
 * [RequireJS](http://requirejs.org/) 2.0.2 included in /libs
 * [RequireJS](http://requirejs.org/) Text plug-in 2.0.0 included in /libs
-* jQuery 1.7.2 hot-linked from [Google APIs](https://developers.google.com/speed/libraries/devguide)
-* Backbone 0.9.2 hot-linked from [CDNJS](http://cdnjs.com)
-* Underscore 1.3.3 hot-linked from [CDNJS](http://cdnjs.com)
-* Twitter Bootstrap 2.0.4 included in /css, /img, /js
+* jQuery 1.10.2 hot-linked from [Google APIs](https://developers.google.com/speed/libraries/devguide)
+* Backbone 1.10.2 hot-linked from [CDNJS](http://cdnjs.com)
+* Underscore 1.5.2 hot-linked from [CDNJS](http://cdnjs.com)
+* Twitter Bootstrap 3.0.2 included in /css, /js, /fonts
 
 ## Installation
 
-Just download/fork/clone and launch index.html in a browser with HTTP server.
+Just download/fork/clone and launch index.html in a browser with HTTP server. You can use simple npm http-server: https://npmjs.org/package/http-server
 
 ## Why?
 
