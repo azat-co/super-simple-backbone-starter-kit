@@ -26,7 +26,6 @@ require(['libs/text!header.html', 'libs/text!home.html', 'libs/text!footer.html'
 			// $.get(this.templateFileName, function(data){console.log(data);this.template=data});		
 		},
 		render: function() {
-			console.log(this.template)
 			$(this.el).html(_.template(this.template));
 		}
 	});
